@@ -2,6 +2,8 @@
 
 基于Google Earth Engine的超高分辨率卫星影像获取工具，支持亚米级精度的街区和建筑级别详细分析。
 
+> **🌍 English Version Available**: [README_EN.md](./README_EN.md) | **中文版**: [README.md](./README.md)
+
 ## 🚀 核心功能
 
 ### 分辨率模式对比
@@ -228,3 +230,31 @@ high_res_params = {
 ---
 
 **这是目前通过Google Earth Engine可以达到的最高精度 (0.3-0.5米分辨率)，足以进行建筑级别的详细分析和建模。**
+
+---
+
+## 📚 **文档导航**
+
+- 🇨🇳 **中文文档**: [README.md](./README.md) (当前文档)
+- 🇺🇸 **English Documentation**: [README_EN.md](./README_EN.md)
+- 📋 **使用教程**: 运行 `python earth_engine_utils.py` 查看示例
+- 🧪 **全球测试**: 运行 `python location_test.py` 测试不同地区
+- 🔧 **下载测试**: 运行 `python test_download.py` 验证功能
+
+## 🤝 **贡献指南**
+
+1. Fork 本仓库
+2. 创建功能分支
+3. 提交更改
+4. 推送到分支
+5. 创建 Pull Request
+
+## 📄 **许可证**
+
+本项目采用 MIT 许可证 - 详见 LICENSE 文件
+
+## 🙏 **致谢**
+
+- Google Earth Engine 提供卫星影像数据
+- 各卫星数据提供商 (Landsat, Sentinel, NAIP, WorldView 等)
+- 开源社区提供的工具和库
